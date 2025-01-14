@@ -1,6 +1,25 @@
+<h1 align="center">永劫无间（端手游） - API 收集整理</h1>
+<p align="center" class="shields">
+    <a href="https://github.com/njmxye/NarakaBladepoint-API-collect/issues" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/issues/njmxye/NarakaBladepoint-API-collect.svg?style=flat&color=red" alt="GitHub issues"/>
+    </a>
+    <a href="https://github.com/njmxye/NarakaBladepoint-API-collect/stargazers" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/stars/njmxye/NarakaBladepoint-API-collect.svg?style=flat&color=yellow" alt="GitHub stars"/>
+    </a>
+    <a href="https://github.com/njmxye/NarakaBladepoint-API-collect/network" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/forks/njmxye/NarakaBladepoint-API-collect.svg?style=flat&color=blue" alt="GitHub forks"/>
+    </a>
+    <a href="https://github.com/njmxye/NarakaBladepoint-API-collect/actions" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/actions/workflow/status/njmxye/NarakaBladepoint-API-collect/vuepress-deploy.yml?style=flat" alt="Build status"/>
+    </a>
+    <a href="https://github.com/njmxye/NarakaBladepoint-API-collect/blob/master/LICENSE" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=flat" alt="GitHub license"/>
+    </a>
+</p>
 
-# 永劫无间（端、手游） - API 收集整理
-#### warning ⚠️声明
+
+## warning ⚠️声明
+
 
 1. 本项目遵守 CC-BY-NC 4.0 协议，禁止一切商业使用，如需转载请注明作者 ID
 2. **请勿滥用，本项目仅用于学习和测试！请勿滥用，本项目仅用于学习和测试！请勿滥用，本项目仅用于学习和测试！**
