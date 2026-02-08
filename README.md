@@ -16,13 +16,14 @@
         <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=flat" alt="GitHub license"/>
     </a>
 </p>
+<p align="center" class="data">
+    <iframe 
+        src="https://steamcharts.com/app/1203220#app-title" 
+        scrolling="no" 
+        style="width:690px;height:175px;overflow:hidden;pointer-events:none;"
+    ></iframe>
+</p>
 
-
-<iframe 
-    src="https://steamcharts.com/app/1203220#app-title" 
-    scrolling="no" 
-    style="width:690px;height:175px;overflow:hidden;pointer-events:none;"
-></iframe>
 
 
 ##### 声明
