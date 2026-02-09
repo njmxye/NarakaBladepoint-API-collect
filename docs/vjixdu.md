@@ -137,7 +137,7 @@ ntes-trace-id: 8379555b1fc19a13:8379555b1fc19a13:0:1
 | soul_items_tids | array | 魂玉物品ID列表 |
 | weapon_proficiency | array | 武器熟练度列表 |
 | be_killed_type | object | 被击杀类型统计 |
-| shock_count | float | 击晕次数 |
+| shock_count | float | 振刀次数 |
 | be_rescued_count | float | 被救援次数 |
 | buy_count_info | object | 购买统计信息 |
 | open_treasure_count | float | 开启宝箱数量 |
