@@ -16,19 +16,12 @@
         <img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg?style=flat" alt="GitHub license"/>
     </a>
 </p>
-<p align="center" class="data">
-    <iframe 
-        src="https://steamcharts.com/app/1203220#app-title" 
-        scrolling="no" 
-        style="width:690px;height:175px;overflow:hidden;pointer-events:none;"
-    ></iframe>
-</p>
 
-![当前在线](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[?(@[1]!=0)][-1][1]&label=Steam 当前在线&color=4CAF50&suffix= 人)
+![当前在线](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[?(@[1]!=0)][-1][1]&label=Steam当前在线&color=4CAF50&suffix=人)
 
-![24小时峰值](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[?(@[0]>=(Date.now()-86400000))][*][1]|max&label=24h 峰值&color=FF9800&suffix= 人)
+![24小时峰值](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[?(@[0]>=(Date.now()-86400000))][*][1]|max&label=24h峰值&color=FF9800&suffix=人)
 
-![历史峰值](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[*][1]|max&label=历史峰值&color=E91E63&suffix= 人)
+![历史峰值](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[*][1]|max&label=历史峰值&color=E91E63&suffix=人)
 
 
 
@@ -44,6 +37,17 @@
 | 名称  |  作者  | 备注  |
 |-------| ----- |------ |
 | （未完成）[白泽百科（端游）](docs/bzbkdy.md) | [@楠寻](https://github.com/njmxye) | 提供游戏内玩法介绍，玩法搜索，捏脸数据，征神之路，兵器攻略，英雄手册，战绩查询，举报等功能…… |
-| （已完成）[战绩查询（网易uu加速器）-本人吐槽，总感觉这个不准](docs/vjixuu163.md) | [@楠寻](https://github.com/njmxye) | 提供不是很准确的战绩查询（主接口崩了的时候备用） |
+| （已完成）[战绩查询（网易uu加速器）](docs/vjixuu163.md) | [@楠寻](https://github.com/njmxye) | 提供不是很准确的战绩查询（主接口崩了的时候备用） |
 | （未完成）[战绩查询（网易大神）](docs/vjixdu.md) |  | 战绩查询主接口（还没开始搞） |
 <!-- 请在此处添加新行-->
+
+```html
+
+<iframe 
+    src="https://steamcharts.com/app/1203220#app-title" 
+    scrolling="no" 
+    style="width:690px;height:175px;overflow:hidden;pointer-events:none;"
+></iframe>
+
+
+```
