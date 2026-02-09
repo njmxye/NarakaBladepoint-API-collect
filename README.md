@@ -17,14 +17,6 @@
     </a>
 </p>
 
-![当前在线](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[-1][1]&label=Steam当前在线&color=4CAF50&suffix=人)
-
-![24小时峰值](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[?(@[0]>=(Date.now()-86400000))][*][1]|max&label=24h峰值&color=FF9800&suffix=人)
-
-![历史峰值](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[*][1]|max&label=历史峰值&color=E91E63&suffix=人)
-
-
-
 ##### 声明
 
 - **请勿滥用，本项目仅用于学习和测试！请勿滥用，本项目仅用于学习和测试！请勿滥用，本项目仅用于学习和测试！**
@@ -39,15 +31,15 @@
 | （未完成）[白泽百科（端游）](docs/bzbkdy.md) | [@楠寻](https://github.com/njmxye) | 提供游戏内玩法介绍，玩法搜索，捏脸数据，征神之路，兵器攻略，英雄手册，战绩查询，举报等功能…… |
 | （已完成）[战绩查询（网易uu加速器）](docs/vjixuu163.md) | [@楠寻](https://github.com/njmxye) | 提供不是很准确的战绩查询（主接口崩了的时候备用） |
 | （未完成）[战绩查询（网易大神）](docs/vjixdu.md) |  | 战绩查询主接口（还没开始搞） |
+| （已完成）[永劫无间steam服日活跃数据](https://steamcharts.com/app/1203220/chart-data.json) | [@楠寻](https://github.com/njmxye) | json数据源自2021-08-01 08:00:00至今，格式为`[[1627776000000,128628],[1630454400000,160720]……[1770591703000,7185]]` |
 <!-- 请在此处添加新行-->
 
-```html
+- 在你的md博客展示日活面板，来自`steamcharts.com`
 
+```html
 <iframe 
     src="https://steamcharts.com/app/1203220#app-title" 
     scrolling="no" 
     style="width:690px;height:175px;overflow:hidden;pointer-events:none;"
 ></iframe>
-
-
 ```
