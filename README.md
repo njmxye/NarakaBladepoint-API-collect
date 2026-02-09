@@ -17,7 +17,7 @@
     </a>
 </p>
 
-![当前在线](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[?(@[1]!=0)][-1][1]&label=Steam当前在线&color=4CAF50&suffix=人)
+![当前在线](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[-1][1]&label=Steam当前在线&color=4CAF50&suffix=人)
 
 ![24小时峰值](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[?(@[0]>=(Date.now()-86400000))][*][1]|max&label=24h峰值&color=FF9800&suffix=人)
 
