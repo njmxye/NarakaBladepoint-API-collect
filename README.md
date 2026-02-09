@@ -31,7 +31,7 @@
 | （未完成）[白泽百科（端游）](docs/bzbkdy.md) | [@楠寻](https://github.com/njmxye) | 提供游戏内玩法介绍，玩法搜索，捏脸数据，征神之路，兵器攻略，英雄手册，战绩查询，举报等功能…… |
 | （已完成）[战绩查询（网易uu加速器）](docs/vjixuu163.md) | [@楠寻](https://github.com/njmxye)[@Priopus](https://github.com/Priopus) | 提供不是很准确的战绩查询（备用） |
 | （未完成）[战绩查询（网易大神）](docs/vjixdu.md) | [@楠寻](https://github.com/njmxye) | 战绩查询主接口 |
-| （已完成）[永劫无间steam服日活跃数据](https://steamcharts.com/app/1203220/chart-data.json) | [@楠寻](https://github.com/njmxye) | json数据源自2021-08-01 08:00:00至今，格式为`[[1627776000000,128628],[1630454400000,160720]……[1770591703000,7185]]` |
+| （已完成）[永劫无间steam服日活跃数据](https://steamcharts.com/app/1203220/chart-data.json) | [@楠寻](https://github.com/njmxye) | 统计json数据源自2021-08-01 08:00:00至今 |
 <!-- 请在此处添加新行-->
 
 ### candies
