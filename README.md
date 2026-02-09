@@ -23,11 +23,13 @@
         style="width:690px;height:175px;overflow:hidden;pointer-events:none;"
     ></iframe>
 </p>
-<p align="center" class="data">
-    ![当前在线](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[?(@[1]!=0)][-1][1]&label=Steam 当前在线&color=4CAF50&suffix= 人)
-    ![24小时峰值](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[?(@[0]>=(Date.now()-86400000))][*][1]|max&label=24h 峰值&color=FF9800&suffix= 人)
-    ![历史峰值](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[*][1]|max&label=历史峰值&color=E91E63&suffix= 人)
-</p>
+
+![当前在线](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[?(@[1]!=0)][-1][1]&label=Steam 当前在线&color=4CAF50&suffix= 人)
+
+![24小时峰值](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[?(@[0]>=(Date.now()-86400000))][*][1]|max&label=24h 峰值&color=FF9800&suffix= 人)
+
+![历史峰值](https://img.shields.io/badge/dynamic/json?url=https://steamcharts.com/app/1203220/chart-data.json&query=$[*][1]|max&label=历史峰值&color=E91E63&suffix= 人)
+
 
 
 ##### 声明
