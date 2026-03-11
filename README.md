@@ -45,4 +45,4 @@
     style="width:690px;height:175px;overflow:hidden;pointer-events:none;"
 ></iframe>
 ```
-<img width="756" height="162" alt="Image" src="https://github.com/user-attachments/assets/99918211-6ffe-4477-82e9-ae81974ca1ca" />
+<img width="770" height="171" alt="Image" src="https://github.com/user-attachments/assets/f316eec6-64b4-4fec-8820-8cf687248f3f" />
